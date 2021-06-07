@@ -6,6 +6,8 @@
 // @author       Help-14
 // @match        *://cmanga.com/*
 // @icon         https://www.google.com/s2/favicons?domain=cmanga.com
+// @updateURL    https://raw.githubusercontent.com/help-14/TamperMonkey-Scripts/main/scripts/cmanga.js
+// @downloadURL  https://raw.githubusercontent.com/help-14/TamperMonkey-Scripts/main/scripts/cmanga.js
 // @grant        none
 // ==/UserScript==
 
