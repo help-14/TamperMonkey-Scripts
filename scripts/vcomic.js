@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Hide "please disable adblock" popup
 // @author       Help-14
-// @match        vcomic.net
+// @match        *://vcomic.net/*
 // @icon         https://www.google.com/s2/favicons?domain=vcomic.net
 // @grant        none
 // ==/UserScript==
