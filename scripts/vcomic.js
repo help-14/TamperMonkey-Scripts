@@ -2,7 +2,7 @@
 // @name         Vcomic
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Hide "please disable adblock" popup
 // @author       Help-14
 // @match        vcomic.net
 // @icon         https://www.google.com/s2/favicons?domain=vcomic.net
