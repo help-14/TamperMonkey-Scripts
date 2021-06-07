@@ -7,3 +7,4 @@ My collection of automation scripts for better life.
 | ------------- | ------------- |
 | [cmanga.com](./scripts/cmanga.js) | Sort comic by newest. |
 | [vcomic.net](./scripts/vcomic.js) | Hide "please disable adblock" popup. |
+| [youtube.com](./scripts/youtube.js) | Go to theater mode automatically. |
