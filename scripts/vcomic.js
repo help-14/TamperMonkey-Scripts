@@ -5,6 +5,8 @@
 // @description  Hide "please disable adblock" popup
 // @author       Help-14
 // @match        *://vcomic.net/*
+// @updateURL    https://raw.githubusercontent.com/help-14/TamperMonkey-Scripts/main/scripts/vcomic.js
+// @downloadURL  https://raw.githubusercontent.com/help-14/TamperMonkey-Scripts/main/scripts/vcomic.js
 // @icon         https://www.google.com/s2/favicons?domain=vcomic.net
 // @grant        none
 // ==/UserScript==
