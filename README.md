@@ -5,6 +5,6 @@ My collection of automation scripts for better life.
 
 | Script  | Description |
 | ------------- | ------------- |
-| [cmanga.com](./scripts/cmanga.js) | Sort comic by newest. |
+| [cmanga.com](./scripts/cmanga.js) | Sort comic by newest, disable chat sound. |
 | [vcomic.net](./scripts/vcomic.js) | Hide "please disable adblock" popup. |
 | [youtube.com](./scripts/youtube.js) | Go to theater mode automatically. |
