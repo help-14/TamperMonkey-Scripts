@@ -11,8 +11,9 @@
 
 (function() {
     'use strict';
-    window.canRunAds = true;
+    var canRunAds = true;
     window.addEventListener('load', function () {
-        document.querySelector('button[data-dismiss="modal"]').click();
+        var closeButton = document.querySelector('button[data-dismiss="modal"]');
+        if(closeButton) closeButton.click();
     });
 })();
