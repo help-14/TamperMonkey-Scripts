@@ -19,12 +19,14 @@
             dropdown.selectedIndex=1;
             update_sort(dropdown);
         } else {
-        setTimeout(() => { selectDropDown(); }, 1000);
+            setTimeout(() => { selectDropDown(); }, 1000);
         }
+        var volumeButton = document.querySelector('#volume_chat.active');
+        if(volumeButton) volumeButton.click()
     }
 
     window.addEventListener('load', function () {
-        selectDropDown()
+        selectDropDown();
     });
 
 })();
