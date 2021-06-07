@@ -13,11 +13,18 @@
     'use strict';
 
     // Your code here...
-    window.addEventListener('load', function () {
-        var selector = document.querySelector('select[onchange="update_sort(this)"]');
-        if(selector) {
-            selector.selectedIndex=1;
-            update_sort(selector);
+    function selectDropDown(){
+        var dropdown = document.querySelector('select[onchange="update_sort(this)"]');
+        if(dropdown) {
+            dropdown.selectedIndex=1;
+            update_sort(dropdown);
+        } else {
+        setTimeout(() => { selectDropDown(); }, 1000);
         }
+    }
+
+    window.addEventListener('load', function () {
+        selectDropDown()
     });
+
 })();
