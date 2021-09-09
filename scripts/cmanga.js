@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cmanga
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Sort comic by newest.
 // @author       Help-14
 // @match        *://cmangavip.com/*
