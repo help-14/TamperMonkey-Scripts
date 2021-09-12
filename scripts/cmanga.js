@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cmanga
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Sort comic by newest.
 // @author       Help-14
 // @match        *://cmangavip.com/*
@@ -26,6 +26,7 @@
         }
         var volumeButton = document.querySelector('#volume_chat.active');
         if(volumeButton) volumeButton.click()
+        $('.popup').hide();
     }
 
     window.addEventListener('load', function () {
